@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wsForm</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+
+
+<body>
+    <form action="">
+    <div class="txt">
+        <h2>สมัครสมาชิก</h2>
+    </div>
+    <div class="t1">
+        <h3>ข้อมูลส่วนตัว</h3>
+    </div>
+    <div class="formgroup">
+        <label for="title">คำนำหน้า : </label>
+        <select name="title" id="title">
+            <option value="กรุณาเลือก">กรุณาเลือก</option>
+            <option value="นาย">นาย</option>
+            <option value="นาง">นาง</option>
+            <option value="นางสาว">นางสาว</option>
+        </select>
+    </div>
+    
+    <div class="formgroup">
+        <label for="firstname">ชื่อ : </label>
+        <input type="text" name="firstname" id="firstname">
+    </div>
+    
+    <div class="formgroup">
+        <label for="lastname">นามสกุล : </label>
+        <input type="text" name="lastname" id="lastname">
+
+    </div>
+
+    <div class="formgroup">
+        <label for="birthdate">วันเดือนปีเกิด : </label>
+        <input type="date" name="birthdate" id="birthdate">
+    </div>
+
+    <div class="formgroup">
+        <label for="gender">เพศ : </label>
+        <input type="radio" name="gender" id="male" value="ชาย">
+        <label for="male">ชาย</label>
+        <input type="radio" name="gender" id="female" value="หญิง">
+        <label for="female">หญิง</label>
+        
+    </div>
+    
+    <div class="formgroup">
+        <label for="email">อีเมล์ : </label>
+        <input type="text" name="email" id="email">
+    </div>
+
+    <div class="formgroup">
+        <label for="phone">เบอร์โทรศัพท์ : </label>
+        <input type="text" name="phone" id="phone">
+    </div>
+
+    <div class="formgroup">
+        <label for="address">ที่อยู่ปัจจุบัน : </label>
+        <textarea name="address" id="address"></textarea>
+    </div>
+
+    <div class="formgroup">
+        <label for="district">อำเภอ : </label>
+        <input type="text" name="district" id="district">
+    </div>
+
+    <div class="formgroup">
+        <label for="province">จังหวัด : </label>
+        <input type="text" name="province" id="province">
+    </div>
+
+    <div class="formgroup">
+        <label for="postcode">รหัสไปรษณีย์ : </label>
+        <input type="text" name="postcode" id="postcode">
+    </div>
+    
+    <div class="formgroup">
+        <label for="occupation">อาชีพ : </label>
+        <select name="occupation" id="occupation">
+            <option value="กรุณาเลือก">กรุณาเลือก</option>
+            <option value="นักเรียน">นักเรียน</option>
+            <option value="ครู/อาจารย์">ครู/อาจารย์</option>
+        </select>
+    </div>
+    
+    
+    <div class="group">
+        <label for="Hobby">งานอดิเรก : </label>
+        <input type="checkbox" name="Hobby" id="reading" value="อ่านหนังสือ">
+        <label for="reading">อ่านหนังสือ</label>
+        <input type="checkbox" name="Hobby" id="gaming" value="เล่นเกม">
+        <label for="gaming">เล่นเกม</label>
+        <input type="checkbox" name="Hobby" id="watching" value="ดูหนัง">
+        <label for="watching">ดูหนัง</label>
+        <input type="checkbox" name="Hobby" id="listening" value="ฟังเพลง">
+        <label for="listening">ฟังเพลง</label>
+        <input type="checkbox" name="Hobby" id="gardening" value="ปลูกต้นไม้">
+        <label for="gardening">ปลูกต้นไม้</label>
+        <input type="checkbox" name="Hobby" id="traveling" value="ท่องเที่ยว">
+        <label for="traveling">ท่องเที่ยว</label>
+    </div>
+    
+    <div class="t2">
+        <h3>ช้อมูลผู้ใช้</h3>
+    </div>
+    
+    <div class="formgroup">
+        <label for="Username">Username : </label>
+        <input type="text" name="Username">
+    </div>
+    
+    <div class="formgroup">
+        <label for="Password">Password : </label>
+        <input type="text" name="Password" id="Password">
+    </div>
+
+    <div class="form-buttons">
+        <input type="submit" value="สมัครสมาชิก">
+        <input type="reset" value="ยกเลิก">
+    </div>
+</form>
+
+</body>
+</html>
